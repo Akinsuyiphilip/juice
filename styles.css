@@ -1,0 +1,373 @@
+:root {
+  --primary-color-1: #FF00FF;
+  --primary-color-2: #c026c0;
+  --secondary-color-1: #9c0cc0;
+  --seconadry-color-2: #C54B8C;
+  --background-color-1: #D05FAD;
+  --header-color: #160903;
+}
+
+body {
+  background: #020403 center/cover;
+}
+
+body .fas,
+body .far {
+  padding-right: .4rem;
+}
+
+section.first-box {
+  background: #020403 center/cover;
+  height: 105vh;
+  max-width: 100%;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav a {
+  margin: 2rem;
+  color: var(--primary-color-2);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "rubik";
+  font-weight: bold;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: .6rem;
+  padding-left: .2rem;
+}
+
+nav ul li :hover {
+  color: var(--primary-color-1);
+  text-decoration: underline;
+}
+
+nav .logo {
+  font-family: "mochiy pop p one";
+  font-size: 2.4rem;
+  color: var(--secondary-color-1);
+  padding-left: 5rem;
+}
+
+nav .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.2rem;
+  padding: .4rem 1.2rem;
+  margin-right: 2rem;
+  background-color: var(--primary-color-1);
+  color: black;
+  border-radius: 1.4rem;
+  text-align: center;
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+nav .login:hover {
+  background-color: var(--primary-color-2);
+  -webkit-transform: scale(1.19);
+          transform: scale(1.19);
+}
+
+header .present {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem 5.0rem 0;
+  font: 3rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .present h1 {
+  font-size: 2.5rem;
+  text-align: left;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  font-family: "rubik";
+  font-weight: bolder;
+  color: var(--primary-color-1);
+  margin-top: .8rem;
+}
+
+header .present p {
+  text-align: left;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  font-size: 1.6rem;
+  padding-top: .4rem;
+  padding-right: 4rem;
+  line-height: 2.6rem;
+  font-family: "rubik";
+  font-weight: 200;
+  color: #3d3a3a;
+}
+
+header .present .present-sign-up-btn {
+  text-decoration: none;
+  display: inline-block;
+  margin: 1.6rem .5rem 0 .4rem;
+  border-radius: 2rem;
+  padding: 1.2rem 5rem;
+  font-family: "rubik";
+  font-size: 1rem;
+  font-weight: bolder;
+  color: white;
+  background-color: var(--secondary-color-1);
+}
+
+header .present .present-sign-up-btn:hover {
+  background-color: var(--primary-color-2);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+header .present .present-img {
+  max-width: 27%;
+  margin: 3rem 5rem;
+  border-radius: 100%;
+}
+
+section.moderator .moderator-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+section.moderator img {
+  max-width: 30%;
+  margin: 6rem 4rem 3rem;
+}
+
+section.moderator h1 {
+  padding-top: 4rem;
+  font-family: "rubik";
+  font-weight: bolder;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 3.5rem;
+  color: var(--primary-color-1);
+}
+
+section.moderator p {
+  text-align: left;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  font-size: 1.8rem;
+  padding-right: 4rem;
+  line-height: 3rem;
+  font-family: "rubik";
+  font-weight: 200;
+  color: #3d3a3a;
+}
+
+section.moderator .moderator-sign-up-btn {
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  margin: 1rem 2rem;
+  border-radius: 1.3rem;
+  padding: 1rem 2rem;
+  font-family: "rubik";
+  font-size: 1rem;
+  font-weight: bolder;
+  color: black;
+  background-color: var(--secondary-color-1);
+}
+
+section.moderator .moderator-sign-up-btn:hover {
+  background-color: var(--primary-color-2);
+  -webkit-transform: scale(1.09);
+          transform: scale(1.09);
+}
+
+.contact-img {
+  margin: 6rem 6.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-img img {
+  max-width: 30%;
+  max-height: 5%;
+  margin: 6rem 4rem 3rem;
+}
+
+.contact-img .contact-text {
+  padding-top: 9rem;
+  font-family: "rubik";
+  font-weight: bolder;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 3.7rem;
+  margin: 2rem 3rem;
+  color: var(--primary-color-1);
+}
+
+.contact-img p {
+  text-align: left;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  font-size: 1.8rem;
+  padding-right: 4rem;
+  line-height: 2;
+  margin: 2rem 2.5rem;
+  font-family: "rubik";
+  font-weight: 200;
+  color: #3d3a3a;
+}
+
+.login-container form {
+  position: absolute;
+  top: 60%;
+  right: 50%;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+  padding: 1.5rem 1.5rem;
+  border-radius: .5rem;
+}
+
+.login-container form .input {
+  display: block;
+  width: 20rem;
+  margin: .9rem 0;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  text-transform: none;
+  border: .2rem solid #FF00FF;
+  outline: none;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.login-container form .input:focus {
+  border-color: var(--secondary-color-1);
+}
+
+.login-container form h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "mochiy pop p one";
+  color: var(--secondary-color-1);
+}
+
+.login-container form .submit {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20rem;
+  padding: .4rem;
+  margin: .6rem 0;
+  margin-left: 1.1rem;
+  margin-top: 1.1rem;
+  display: block;
+  background: var(--secondary-color-1);
+  color: white;
+  border-radius: 2rem;
+  border: 0.2rem solid var(--primary-color-1);
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.login-container form .submit:hover {
+  background: var(--primary-color-2);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.login-container form #remeber-me {
+  margin: 2rem .3rem 1rem;
+}
+
+.login-container form label {
+  font-size: 1.2rem;
+  font-family: "roboto";
+  color: white;
+}
+
+.login-container form .forgot {
+  text-decoration: none;
+}
+
+.login-container form p {
+  text-align: center;
+  color: white;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.login-container form .error {
+  font-size: 1rem;
+  color: red;
+}
+
+.login-container form p a {
+  color: var(--secondary-color-1);
+  text-decoration: none;
+  text-align: center;
+}
+
+.login-container form a:hover {
+  color: var(--primary-color-1);
+}
+
+footer {
+  height: 20vh;
+}
+
+.contactme {
+  margin: 8rem 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .logo {
+  font-family: "mochiy pop p one";
+  font-size: 2.4rem;
+  color: var(--secondary-color-1);
+  padding: 1rem;
+  text-decoration: none;
+}
+
+footer ul li a {
+  display: inline;
+  padding-left: 2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+}
+
+footer ul li a :hover {
+  color: #c026c0;
+}
+/*# sourceMappingURL=styles.css.map */
